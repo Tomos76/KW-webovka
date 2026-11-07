@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diskografie | YE</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -31,6 +32,16 @@
                 hranice vlastního žánru.
             </p>
         </section>
+
+        <div class="album-search">
+            <label for="album-search">Vyhledat album</label>
+            <input
+                type="search"
+                id="album-search"
+                placeholder="Např. Graduation..."
+            >
+            <p id="search-status" aria-live="polite"></p>
+            </div>
 
         <section class="album">
 

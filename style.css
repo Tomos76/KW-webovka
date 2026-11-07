@@ -391,3 +391,33 @@ footer {
 .source-section li {
     margin-bottom: 12px;
 }
+.album-search {
+    margin-bottom: 30px;
+}
+
+.album-search label {
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.album-search input {
+    width: 100%;
+    padding: 14px;
+    background: #1c1c1c;
+    border: 1px solid #444;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.album-search input:focus {
+    outline: none;
+    border-color: #e63946;
+}
+
+#search-status {
+    color: #aaa;
+    margin-top: 10px;
+}
