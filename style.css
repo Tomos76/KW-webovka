@@ -228,3 +228,55 @@ footer {
     max-width: 850px;
     line-height: 1.8;
 }
+
+/* =================================
+   ANALÝZA HUDEBNÍCH TEXTŮ
+================================= */
+
+.song-analysis {
+    background-color: #1c1c1c;
+    padding: 35px;
+    margin-bottom: 30px;
+    border-left: 4px solid #e63946;
+}
+
+.song-analysis h2 {
+    font-size: 27px;
+    margin-bottom: 5px;
+}
+
+.song-analysis h3 {
+    color: #e63946;
+    font-size: 19px;
+    margin: 20px 0 12px;
+}
+
+.song-album {
+    color: #777777;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.song-analysis p {
+    color: #bbbbbb;
+    margin-bottom: 15px;
+}
+
+.song-analysis .interpretation {
+    background-color: #292929;
+    padding: 20px;
+    border-left: 2px solid #e63946;
+    color: #eeeeee;
+    margin-top: 25px;
+    font-style: italic;
+}
+
+@media (max-width: 600px) {
+    .song-analysis {
+        padding: 22px;
+    }
+
+    .song-analysis h2 {
+        font-size: 22px;
+    }
+}
