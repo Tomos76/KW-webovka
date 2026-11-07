@@ -421,3 +421,76 @@ footer {
     color: #aaa;
     margin-top: 10px;
 }
+/* Responzivní design */
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 20px 10px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    main {
+        width: 92%;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image {
+        width: 100%;
+        max-width: 350px;
+        margin-top: 20px;
+    }
+
+    .album {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .album-cover {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .page-heading h1 {
+        font-size: 32px;
+    }
+
+    .source-item {
+        padding: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    header h1 {
+        font-size: 36px;
+    }
+
+    nav {
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+    .hero h2 {
+        font-size: 30px;
+    }
+
+    .page-heading h1 {
+        font-size: 27px;
+    }
+}
