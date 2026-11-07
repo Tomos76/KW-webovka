@@ -340,3 +340,54 @@ footer {
         aspect-ratio: 1;
     }
 }
+
+/* =================================
+   STRÁNKA ZDROJŮ
+================================= */
+
+.source-section {
+    margin-bottom: 45px;
+}
+
+.source-section h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.source-section h3 {
+    color: #e63946;
+    margin-bottom: 10px;
+}
+
+.source-item {
+    background-color: #1c1c1c;
+    padding: 25px;
+    margin-bottom: 15px;
+    border-left: 3px solid #e63946;
+}
+
+.source-item p,
+.source-section p,
+.source-section li {
+    color: #bbbbbb;
+}
+
+.source-item a {
+    display: inline-block;
+    margin-top: 12px;
+    color: #e63946;
+    text-decoration: none;
+}
+
+.source-item a:hover {
+    color: white;
+}
+
+.source-section ul {
+    padding-left: 25px;
+    margin: 15px 0 25px;
+}
+
+.source-section li {
+    margin-bottom: 12px;
+}
