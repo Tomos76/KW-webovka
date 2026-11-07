@@ -184,3 +184,47 @@ footer {
         padding: 40px 5px;
     }
 }
+
+/* =================================
+   STRÁNKA DISKOGRAFIE
+================================= */
+
+.page-heading {
+    padding: 55px 10px;
+    border-bottom: 1px solid #333333;
+    margin-bottom: 30px;
+}
+
+.page-heading h2 {
+    font-size: 42px;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+
+.page-heading p {
+    color: #aaaaaa;
+}
+
+.album {
+    background-color: #1c1c1c;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-left: 3px solid #e63946;
+    transition: 0.3s;
+}
+
+.album:hover {
+    background-color: #292929;
+    transform: translateX(5px);
+}
+
+.album h2 {
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.album p {
+    color: #bbbbbb;
+    max-width: 850px;
+    line-height: 1.8;
+}
