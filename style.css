@@ -494,3 +494,6 @@ footer {
         font-size: 27px;
     }
 }
+.album[hidden] {
+    display: none !important;
+}
