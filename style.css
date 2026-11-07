@@ -1,0 +1,186 @@
+
+/* =================================
+   ZÁKLADNÍ NASTAVENÍ WEBU
+================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111111;
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+}
+
+/* =================================
+   HLAVIČKA
+================================= */
+
+header {
+    background-color: #080808;
+    text-align: center;
+    padding: 45px 20px;
+    border-bottom: 1px solid #333333;
+}
+
+header h1 {
+    font-size: 65px;
+    letter-spacing: 12px;
+    color: #ffffff;
+}
+
+header p {
+    font-size: 13px;
+    letter-spacing: 5px;
+    color: #999999;
+}
+
+/* =================================
+   NAVIGACE
+================================= */
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+    padding: 20px;
+    background-color: #151515;
+}
+
+nav a {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #e63946;
+}
+
+/* =================================
+   HLAVNÍ SEKCE
+================================= */
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 25px;
+}
+
+.hero {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+    background-color: #202020;
+    border-left: 5px solid #e63946;
+}
+
+.hero h2 {
+    font-size: 55px;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 600px;
+    color: #bbbbbb;
+    font-size: 18px;
+}
+
+/* =================================
+   ÚVODNÍ TEXT
+================================= */
+
+.introduction {
+    padding: 65px 10px;
+}
+
+.introduction h2,
+.featured h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.introduction p {
+    color: #bbbbbb;
+    margin-bottom: 20px;
+    max-width: 850px;
+}
+
+/* =================================
+   DOPORUČENÁ SEKCE
+================================= */
+
+.featured {
+    background-color: #1c1c1c;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.featured p {
+    color: #bbbbbb;
+    margin-bottom: 25px;
+}
+
+.featured a {
+    color: #e63946;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.featured a:hover {
+    color: #ffffff;
+}
+
+/* =================================
+   PATIČKA
+================================= */
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #080808;
+    color: #777777;
+    border-top: 1px solid #333333;
+    font-size: 13px;
+}
+
+/* =================================
+   MOBILNÍ ZOBRAZENÍ
+================================= */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 45px;
+    }
+
+    nav {
+        gap: 15px;
+    }
+
+    .hero {
+        padding: 30px;
+        min-height: 300px;
+    }
+
+    .hero h2 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .introduction {
+        padding: 40px 5px;
+    }
+}
